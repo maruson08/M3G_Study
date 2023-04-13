@@ -1,0 +1,42 @@
+header{
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
+body{
+    margin: 0;
+    background-color: #202020;
+}
+div.menu{
+    text-align: center;
+    border-radius: 5%;
+    padding: 1%;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    background-color: white;
+    font-size: xx-large;
+    margin: auto;
+    margin-bottom: 5%;
+}
+div.menu:hover{
+    text-align: center;
+    border-radius: 5%;
+    margin: 1%;
+    padding: 1%;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    background-color: rgb(255, 219, 219);
+    font-size: xx-large;
+    margin: auto;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+div.menuWraper{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
