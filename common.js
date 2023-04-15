@@ -1,6 +1,6 @@
 $('.menu').click(function(e){
     const id = $(this).attr('id');
-    console.log(id);
+    window.location.href = `product.html?id=${id}`;
     e.preventDefault();  
 
 })
